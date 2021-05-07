@@ -11,9 +11,12 @@ class MainActivity : AppCompatActivity() {
     private var num2 = 0.0
     private var operacion = 0
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
 
         uno.setOnClickListener {numeropresionado("1")}
